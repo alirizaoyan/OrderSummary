@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -9,6 +9,7 @@ body{
     background-color: hsl(225, 100%, 94%);
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .container{
@@ -31,7 +32,6 @@ body{
 }
 
 .header h1{
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 27px;
     text-align: center;
     padding-top: 45px;
@@ -42,7 +42,7 @@ body{
 }
 
 .description p{
-    font-size: 18px;
+    font-size: 15px;
     padding: 22px 71px 0px 71px;
     text-align: center;
     color: rgb(126,129,149);
@@ -52,6 +52,7 @@ body{
 .payment-container{
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
+    margin: 25px 0px;
 }
 
 .plan{
@@ -59,6 +60,7 @@ body{
     flex-direction: column;
     padding-left: 20px;
     padding-right: 95px;
+    font-size: 15px;
 }
 
 .payment{
@@ -69,4 +71,18 @@ body{
 
 .plan > span:first-child{
     font-weight: bold;
+}
+
+.icon img{
+    display: flex;
+}
+
+.plan span:last-child{
+    color: rgb(126,129,149);
+}
+
+.link span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
