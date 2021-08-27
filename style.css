@@ -89,6 +89,11 @@ body{
     cursor: pointer;
 }
 
+.link span:hover{
+    color: rgb(115,110,191);
+    text-decoration: none;
+}
+
 .order-buttons{
     display: flex;
     flex-direction: column;
@@ -102,10 +107,25 @@ body{
     border-radius: 10px;
     padding: 15px 104px;
     box-shadow: 3px 22px 20px rgb(218, 216, 250);
+    cursor: pointer;
+}
+
+.order-buttons span:first-child:hover{
+    background-color: rgb(116,114,238);
 }
 
 .order-buttons span:last-child{
-    padding-top: 32px;
-    padding-bottom: 52px;
+    margin-top: 32px;
+    margin-bottom: 52px;
+}
+
+span h4{
     color: rgb(119,127,142);
+    cursor: pointer;
+    display: contents;
+}
+
+span h4:hover{
+    color: black;
+    font-weight: bold;
 }
