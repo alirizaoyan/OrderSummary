@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -25,10 +25,11 @@ body{
     align-items: center;
     flex: 0.3;
     background-color: white;
-    margin: auto 0px;
+    margin: auto 0;
     height: max-content;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 0 25px 25px rgb(200, 212, 255);
 }
 
 .header h1{
@@ -43,7 +44,7 @@ body{
 
 .description p{
     font-size: 15px;
-    padding: 22px 71px 0px 71px;
+    padding: 22px 71px 0 71px;
     text-align: center;
     color: rgb(126,129,149);
     line-height: 1.35;
@@ -52,7 +53,7 @@ body{
 .payment-container{
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
-    margin: 25px 0px;
+    margin: 25px 0;
 }
 
 .plan{
@@ -71,6 +72,7 @@ body{
 
 .plan > span:first-child{
     font-weight: bold;
+    padding-bottom: 3px;
 }
 
 .icon img{
@@ -82,7 +84,28 @@ body{
 }
 
 .link span{
-    color: blue;
+    color: rgb(58,55,154);
     text-decoration: underline;
     cursor: pointer;
+}
+
+.order-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+
+.order-buttons span:first-child{
+    background-color: rgb(55,61,224);
+    color: rgb(245,246,255);
+    border-radius: 10px;
+    padding: 15px 104px;
+    box-shadow: 3px 22px 20px rgb(218, 216, 250);
+}
+
+.order-buttons span:last-child{
+    padding-top: 32px;
+    padding-bottom: 52px;
+    color: rgb(119,127,142);
 }
